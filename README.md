@@ -61,6 +61,9 @@ Each repo runs its own issue tracker, and each repo's `ROADMAP.md` is its source
 
 ## Community
 
-<!-- socials: add Discord / Telegram / X links here when they exist. Until then this section stays link-free on purpose. -->
+Join the discussion and get support:
+
+- **Discord**: [discord.gg/4WFU6fwPe](https://discord.gg/4WFU6fwPe)
+- **Telegram**: [t.me/Pactwright](https://t.me/Pactwright)
 
 Written for people building agents that have to spend money they can't claw back. If that is you, the fastest way in is the [Kit's 60-second section](https://github.com/Pactwright/Pactwright-Kit#-overview) and then the contract's [step-by-step purchase walkthrough](https://github.com/Pactwright/Pactwright-contracts#a-purchase-step-by-step).
