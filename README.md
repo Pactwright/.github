@@ -1,6 +1,3 @@
-<!-- Org profile README: this file renders at https://github.com/Pactwright -->
-<!-- Optional: copy brand/pactwright-logo-light.svg from any repo into this repo and put a <picture> banner above the h1. -->
-
 # Pactwright
 
 **Escrow and verifiable settlement for AI-agent purchases on Stellar — the money moves only when delivery is proven, and it comes back when it isn't.**
@@ -51,6 +48,8 @@ Everything is in one place: **[pactwright.github.io/docs](https://pactwright.git
 - Live testnet pages: [Studio](https://pactwright-studio-testnet.onrender.com) · [verifier `/health`](https://pactwright-verifier-testnet.onrender.com/health) · [facilitator `/supported`](https://pactwright-facilitator-testnet.onrender.com/supported)
 - The `pact` contract on the explorer: [CDUXJJUNYF…FEV6](https://stellar.expert/explorer/testnet/contract/CDUXJJUNYFILEYHE3LITANJEKCDFERNAABOSG75OWATFVM776BCMFEV6)
 
+Written for people building agents that have to spend money they can't claw back. If that is you, the fastest way in is the [Kit's 60-second section](https://github.com/Pactwright/Pactwright-Kit#-overview) and then the contract's [step-by-step purchase walkthrough](https://github.com/Pactwright/Pactwright-contracts#a-purchase-step-by-step).
+
 ## Contributing
 
 Each repo runs its own issue tracker, and each repo's `ROADMAP.md` is its source of truth — phases, task IDs, dependencies, and an update log with the commit or PR that moved each one. The rule that catches most new contributors: **a pull request that doesn't touch `ROADMAP.md` fails the `roadmap-check` job.** Read `ARCHITECTURE_ESSENTIALS.md` first; it states the invariants that are not negotiable (no admin path to pact funds, two modes, two deadlines, one attestation per pact, hashing in exactly one file per language, amounts as `i128` stroops on-chain and decimal strings in TypeScript).
@@ -61,9 +60,4 @@ Each repo runs its own issue tracker, and each repo's `ROADMAP.md` is its source
 
 ## Community
 
-Join the discussion and get support:
-
-- **Discord**: [discord.gg/4WFU6fwPe](https://discord.gg/4WFU6fwPe)
-- **Telegram**: [t.me/Pactwright](https://t.me/Pactwright)
-
-Written for people building agents that have to spend money they can't claw back. If that is you, the fastest way in is the [Kit's 60-second section](https://github.com/Pactwright/Pactwright-Kit#-overview) and then the contract's [step-by-step purchase walkthrough](https://github.com/Pactwright/Pactwright-contracts#a-purchase-step-by-step).
+[Discord](https://discord.gg/4WFU6fwPe) · [Telegram](https://t.me/Pactwright)
